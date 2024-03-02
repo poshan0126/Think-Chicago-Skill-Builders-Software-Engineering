@@ -1,0 +1,25 @@
+Corrected Code for Countdown:
+5
+4
+3
+
+Your Mood Today:
+Day 1: Today's mood is Energetic.
+Day 2: Today's mood is Sad.
+Day 3: Today's mood is Happy.
+Day 4: Today's mood is Sad.
+Day 5: Today's mood is Happy.
+Day 6: Today's mood is Energetic.
+Day 7: Today's mood is Happy.
+
+Going Backwards:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
