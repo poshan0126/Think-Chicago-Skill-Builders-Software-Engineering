@@ -1,12 +1,29 @@
+
+# The Shopping List Maker
+
 shopping_list = []
 
+# Task 1: Add Items
 def add_item(item):
     shopping_list.append(item)
-    print(f"Added {item} to the list.")
+    print(f"'{item}' has been added to your shopping list.")
 
-def main():
-    add_item(input("What would you like to add to the shopping list? "))
-    print(f"Current shopping list: {shopping_list}")
+# Task 2: Remove Items
+def remove_item(item):
+    if item in shopping_list:
+        shopping_list.remove(item)
+        print(f"'{item}' has been removed from your shopping list.")
+    else:
+        print(f"'{item}' is not in the shopping list.")
 
-if __name__ == '__main__':
-    main()
+# Task 3: Print List
+def print_list():
+    print("Shopping List:")
+    for item in shopping_list:
+        print(f"- {item}")
+
+# Sample Function Calls
+add_item("Milk")
+add_item("Eggs")
+remove_item("Milk")
+print_list()
